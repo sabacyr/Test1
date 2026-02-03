@@ -8,12 +8,18 @@ website:
     left:
       - href: index.qmd
         text: Home
-      - projects.qmd
+      - donate.qmd
+      - events.qmd
     tools:
-      - icon: twitter
-        href: https://twitter.com/
+      - icon: instagram
+        text: Instagram
+        href: https://instagram.com/gso_umaine
       - icon: github
+        text: Github
         href: https://github.com/sabacyr
+      - icon: linkedin
+        text: LinkedIn
+        href: http://linkedin.com/gso-me
   page-footer:
     right: "Built with [Quarto](https://quarto.org/)"
     left: "&copy; Copyright 2026, Saba Cyr"

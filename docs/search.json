@@ -1,23 +1,58 @@
 [
   {
+    "objectID": "donate.html",
+    "href": "donate.html",
+    "title": "Donate",
+    "section": "",
+    "text": "This is a paragraph on why you should donate to us"
+  },
+  {
+    "objectID": "donate.html#donate",
+    "href": "donate.html#donate",
+    "title": "Donate",
+    "section": "",
+    "text": "This is a paragraph on why you should donate to us"
+  },
+  {
+    "objectID": "events.html",
+    "href": "events.html",
+    "title": "Events",
+    "section": "",
+    "text": "Description\n\n\n\nDescription\n\n\n\nDescription"
+  },
+  {
+    "objectID": "events.html#upcoming-events",
+    "href": "events.html#upcoming-events",
+    "title": "Events",
+    "section": "",
+    "text": "Description\n\n\n\nDescription\n\n\n\nDescription"
+  },
+  {
+    "objectID": "events.html#past-events",
+    "href": "events.html#past-events",
+    "title": "Events",
+    "section": "Past Events",
+    "text": "Past Events\n\nEvent 1\nDescription\n\n\nEvent 2\nDescription\n\n\nEvent 3\nDescription"
+  },
+  {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "About Me",
+    "title": "About Us",
     "section": "",
-    "text": "Thanks for checking out my web site!"
+    "text": "Finley Malloc is the Chief Data Scientist at Wengo Analytics. When not innovating on data platforms, Finley enjoys spending time unicycling and playing with her pet iguana."
   },
   {
-    "objectID": "projects.html#project-2",
-    "href": "projects.html#project-2",
-    "title": "Projects",
-    "section": "Project 2",
-    "text": "Project 2"
+    "objectID": "index.html#education",
+    "href": "index.html#education",
+    "title": "About Us",
+    "section": "Education",
+    "text": "Education\nUniversity of California, San Diego | San Diego, CA PhD in Mathematics | Sept 2011 - June 2015\nMacalester College | St. Paul, MN B.A in Economics | Sept 2007 - June 2011"
   },
   {
-    "objectID": "projects.html#project-3",
-    "href": "projects.html#project-3",
-    "title": "Projects",
-    "section": "Project 3",
-    "text": "Project 3"
+    "objectID": "index.html#experience",
+    "href": "index.html#experience",
+    "title": "About Us",
+    "section": "Experience",
+    "text": "Experience\nWengo Analytics | Head Data Scientist | April 2018 - present\nGeoScynce | Chief Analyst | Spet 2012 - April 2018"
   }
 ]
