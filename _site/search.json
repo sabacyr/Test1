@@ -2,44 +2,37 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "About Us",
+    "title": "Geotechnical Student Organization",
     "section": "",
-    "text": "The Geotechnical Student Organization (GSO) is a student-run organization at the University of Maine for undergraduate and graduate students interested in geotechnical engineering. We focus on hands-on learning, professional development, and building a strong, supportive community.\nGSO provides opportunities beyond the classroom through workshops, technical seminars, field experiences, and collaborative events. These activities help students connect theory with practice, learn new tools and methods, and gain exposure to real-world geotechnical applications.\nWe emphasize professional connection and community building by bringing together students, faculty, and industry professionals. Through collaborations with organizations such as COPRI and the Geo-Institute of ASCE, GSO supports student participation in conferences, workshops, and competitions while fostering an inclusive, low-pressure environment for learning and connection."
+    "text": "↓ Learn more"
+  },
+  {
+    "objectID": "index.html#about",
+    "href": "index.html#about",
+    "title": "Geotechnical Student Organization",
+    "section": "About Us",
+    "text": "About Us\nThe Geotechnical Student Organization (GSO) is a student-run organization at the University of Maine for undergraduate and graduate students interested in geotechnical engineering. We focus on hands-on learning, professional development, and building a strong, supportive community.\nGSO provides opportunities beyond the classroom through workshops, technical seminars, field experiences, and collaborative events. These activities help students connect theory with practice, learn new tools and methods, and gain exposure to real-world geotechnical applications.\nWe emphasize professional connection and community building by bringing together students, faculty, and industry professionals. Through collaborations with organizations such as COPRI and the Geo-Institute of ASCE, GSO supports student participation in conferences, workshops, and competitions while fostering an inclusive, low-pressure environment for learning and connection."
   },
   {
     "objectID": "index.html#mission",
     "href": "index.html#mission",
-    "title": "About Us",
+    "title": "Geotechnical Student Organization",
     "section": "Mission",
     "text": "Mission\nOur mission is to provide a platform for geotechnical engineering students to connect, learn, and grow. We create a supportive environment that enhances academic and professional development through technical events, workshops, and networking opportunities that expose students to real-world challenges and solutions. We foster a culture of collaboration, innovation, and excellence that prepares members to be effective and impactful geotechnical engineers and to contribute to sustainable communities."
   },
   {
     "objectID": "index.html#vision",
     "href": "index.html#vision",
-    "title": "About Us",
+    "title": "Geotechnical Student Organization",
     "section": "Vision",
     "text": "Vision\nTo be a leading student organization that connects geotechnical engineering students with academic and industry partners while providing opportunities for personal and professional growth, innovation, and excellence."
   },
   {
     "objectID": "index.html#goals",
     "href": "index.html#goals",
-    "title": "About Us",
+    "title": "Geotechnical Student Organization",
     "section": "Goals",
     "text": "Goals\nTo promote meaningful interaction between students and leading academics, companies, institutes, and professional societies related to geotechnical engineering."
-  },
-  {
-    "objectID": "donate.html",
-    "href": "donate.html",
-    "title": "Donate",
-    "section": "",
-    "text": "This is a paragraph on why you should donate to us"
-  },
-  {
-    "objectID": "donate.html#donate",
-    "href": "donate.html#donate",
-    "title": "Donate",
-    "section": "",
-    "text": "This is a paragraph on why you should donate to us"
   },
   {
     "objectID": "events.html",
@@ -61,5 +54,19 @@
     "title": "Events",
     "section": "Past Events",
     "text": "Past Events\n\nEvent 1\nDescription\n\n\nEvent 2\nDescription\n\n\nEvent 3\nDescription"
+  },
+  {
+    "objectID": "donate.html",
+    "href": "donate.html",
+    "title": "Donate",
+    "section": "",
+    "text": "This is a paragraph on why you should donate to us"
+  },
+  {
+    "objectID": "donate.html#donate",
+    "href": "donate.html#donate",
+    "title": "Donate",
+    "section": "",
+    "text": "This is a paragraph on why you should donate to us"
   }
 ]

@@ -1,33 +1,29 @@
 project:
   type: website
-  output-dir: docs
-  
+
 website:
   title: "Geotechnical Student Organization"
+  favicon: img/favicon.png
   navbar:
     left:
       - href: index.qmd
         text: Home
-      - donate.qmd
-      - events.qmd
-    tools:
+      - href: events.qmd
+        text: Events
+      - href: donate.qmd
+        text: Donate
+      - href: gallery.qmd
+        text: Gallery
+    right:
       - icon: instagram
-        text: Instagram
         href: https://instagram.com/gso_umaine
-      - icon: github
-        text: Github
-        href: https://github.com/sabacyr
       - icon: linkedin
-        text: LinkedIn
-        href: http://linkedin.com/gso-me
-  page-footer:
-    right: "Built with [Quarto](https://quarto.org/)"
-    left: "&copy; Copyright 2026, Saba Cyr"
+        href: https://linkedin.com/gso-me
+      - icon: github
+        href: https://github.com/sabacyr
 
 format:
   html:
-    theme: cerulean
-    toc: true
-
-editor: source
-
+    theme: cosmo
+    css: styles.css
+    toc: false

@@ -1,0 +1,192 @@
+/* =====================================================
+   GLOBAL LAYOUT FIXES
+   ===================================================== */
+
+/* Prevent content from hiding under fixed navbar */
+body {
+  padding-top: 70px; /* must match navbar height */
+}
+
+/* Enable smooth scrolling for anchor links */
+html {
+  scroll-behavior: smooth;
+}
+
+
+/* =====================================================
+   HERO SECTION
+   ===================================================== */
+
+/* Full-screen hero container */
+.hero {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+/* Large responsive logo with fade-in */
+.hero-logo {
+  width: 90vw;
+  max-width: 900px;
+  height: auto;
+  opacity: 0;
+  animation: fadeIn 1s ease forwards;
+}
+
+/* Fade-in animation */
+@keyframes fadeIn {
+  to {
+    opacity: 1;
+  }
+}
+
+/* "Learn more" scroll cue at bottom of hero */
+.scroll-indicator {
+  position: absolute;
+  bottom: 40px;
+  font-size: 1rem;
+  opacity: 0;
+  animation: fadeIn 1s ease forwards;
+  animation-delay: 0.5s;
+}
+
+/* Scroll cue link styling */
+.scroll-indicator a {
+  color: #282a2b;
+  text-decoration: none;
+}
+
+.scroll-indicator a:hover {
+  color: #175931;
+}
+
+
+/* =====================================================
+   NAVBAR (TOP BLUE BANNER)
+   ===================================================== */
+
+/* Fixed top navigation bar */
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+  background-color: #2a92bf !important;
+  box-shadow: none;
+}
+
+/* ---------- NAVBAR COLOR SYSTEM ---------- */
+/*
+   Default text & icon color:  #fffced
+   Hover state color:           #c7f1fb
+   Active/current page color:   #7a4b30
+*/
+
+/* Default navbar links + brand text */
+.navbar a,
+.navbar-brand {
+  color: #fffced !important;
+}
+
+/* Default navbar icons (SVGs & font icons) */
+.navbar .nav-link svg,
+.navbar .nav-link i {
+  color: #fffced !important;
+  fill: #fffced !important;
+}
+
+/* Hover state for links and icons */
+.navbar a:hover,
+.navbar .nav-link:hover svg,
+.navbar .nav-link:hover i {
+  color: #175931 !important;
+  fill: #175931 !important;
+}
+
+/* Active/current page state */
+.navbar .nav-link.active,
+.navbar .nav-link[aria-current="page"] {
+  color: #c7f1fb !important;
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
+
+/* Active/current icon state */
+.navbar .nav-link.active svg,
+.navbar .nav-link[aria-current="page"] svg {
+  color: #c7f1fb !important;
+  fill: #c7f1fb !important;
+}
+
+
+/* =====================================================
+   PAGE TITLE BANNER (Below Hero)
+   ===================================================== */
+
+/* Full-width title banner */
+.quarto-title-block {
+  background-color: #2a92bf;
+  color: #fffced;
+  padding: 3rem 1rem;
+  margin-bottom: 2rem;
+  width: 100vw;
+  margin-left: calc(-50vw + 50%);
+}
+
+/* Page title text */
+.quarto-title-block h1 {
+  color: #fffced;
+}
+
+/* Optional subtitle text */
+.quarto-title-block p {
+  color: #e6eef4;
+}
+
+
+/* =====================================================
+   HORIZONTAL SECTION NAV (Mission / Vision / Goals)
+   ===================================================== */
+
+/* Container for section navigation */
+.section-nav {
+  display: flex;
+  justify-content: center;
+  gap: 3rem;
+  padding: 1rem 0;
+  background-color: #f7f9fb;
+  border-bottom: 4px solid #2a92bf;
+  margin-bottom: 3rem;
+
+  /* full-width stretch */
+  width: 100vw;
+  margin-left: calc(-50vw + 50%);
+}
+
+/* Section nav links */
+.section-nav a {
+  font-weight: 600;
+  color: #2a92bf;
+  text-decoration: none;
+}
+
+/* Hover state for section nav */
+.section-nav a:hover {
+  color: #175931;
+}
+
+
+/* =====================================================
+   CONTENT SECTION HEADERS
+   ===================================================== */
+
+/* Consistent spacing + divider for section headings */
+h2 {
+  margin-top: 5rem;            /* space above section */
+  padding-bottom: 0.75rem;     /* space between text and line */
+  margin-bottom: 1.5rem;       /* space after divider */
+  border-bottom: 3px solid #2a92bf;
+}
