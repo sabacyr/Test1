@@ -4,19 +4,28 @@ title: ""
 page-layout: full
 toc: false
 ---
-
 <div class="hero">
   <img src="img/LOGO.png" alt="GSO Logo" class="hero-logo">
-  <div class="scroll-indicator"> <a href="#about">↓ Learn more</a>
+  <div class="intro-band">
+  <p>
+    A student-led organization at the University of Maine advancing geotechnical engineering through hands-on learning, professional connection, and community.
+  </p>
+</div>
+
+  <a class="hero-btn" href="#section-nav">Learn More</a>
   </div>
 </div>
 
-<nav class="section-nav">
+<nav class="section-nav" id="section-nav">
   <a href="#about">About Us</a>
   <a href="#mission">Mission</a>
   <a href="#vision">Vision</a>
   <a href="#goals">Goals</a>
 </nav>
+
+<div class="content-container">
+
+
 
 ## About Us {#about}
 

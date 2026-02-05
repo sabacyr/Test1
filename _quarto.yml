@@ -10,10 +10,17 @@ website:
         text: Home
       - href: events.qmd
         text: Events
-      - href: donate.qmd
-        text: Donate
+      - href: resources.qmd
+        text: Resources
       - href: gallery.qmd
         text: Gallery
+      - href: members.qmd
+        text: Members
+      - href: contact.qmd
+        text: Contact Us
+      - href: donate.qmd
+        text: Donate
+
     right:
       - icon: instagram
         href: https://instagram.com/gso_umaine

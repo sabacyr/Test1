@@ -27,13 +27,33 @@ html {
   position: relative;
 }
 
+.content-container {
+  width: 70vw;
+  margin: 0 auto;
+  padding: 2rem 0rem;
+  font-size: 1.1rem;
+}
+
 /* Large responsive logo with fade-in */
 .hero-logo {
-  width: 90vw;
-  max-width: 900px;
+  width: 100vw;
+  max-width: 1050px;
   height: auto;
   opacity: 0;
-  animation: fadeIn 1s ease forwards;
+  animation: fadeIn 1.5s ease forwards;
+}
+
+
+.hero-btn {
+  margin-top: 2rem;
+  padding: 0.6rem 1.5rem;
+  border-radius: 50px;
+  background-color: #2a92bf;
+  color: #fffced;
+  text-decoration: none;
+  font-weight: 600;
+  opacity: 0;
+  animation: fadeIn 1.5s ease forwards;
 }
 
 /* Fade-in animation */
@@ -43,24 +63,24 @@ html {
   }
 }
 
-/* "Learn more" scroll cue at bottom of hero */
-.scroll-indicator {
-  position: absolute;
-  bottom: 40px;
-  font-size: 1rem;
-  opacity: 0;
-  animation: fadeIn 1s ease forwards;
-  animation-delay: 0.5s;
+.hero-btn:hover {
+  background-color: #175931;
 }
 
-/* Scroll cue link styling */
-.scroll-indicator a {
+.intro-band {
+  background: none;
+  max-width: 950px;
+  margin: 2rem auto 0 auto;
+  padding: 0 1.5rem;
+  text-align: center;
+}
+
+.intro-band p {
+  margin: 0;
+  font-family: inherit;
+  font-size: 1.5rem;
+  line-height: 1.7;
   color: #282a2b;
-  text-decoration: none;
-}
-
-.scroll-indicator a:hover {
-  color: #175931;
 }
 
 
@@ -76,6 +96,8 @@ html {
   z-index: 1000;
   background-color: #2a92bf !important;
   box-shadow: none;
+  font-size: 1.1rem;
+
 }
 
 /* ---------- NAVBAR COLOR SYSTEM ---------- */
@@ -123,31 +145,6 @@ html {
 
 
 /* =====================================================
-   PAGE TITLE BANNER (Below Hero)
-   ===================================================== */
-
-/* Full-width title banner */
-.quarto-title-block {
-  background-color: #2a92bf;
-  color: #fffced;
-  padding: 3rem 1rem;
-  margin-bottom: 2rem;
-  width: 100vw;
-  margin-left: calc(-50vw + 50%);
-}
-
-/* Page title text */
-.quarto-title-block h1 {
-  color: #fffced;
-}
-
-/* Optional subtitle text */
-.quarto-title-block p {
-  color: #e6eef4;
-}
-
-
-/* =====================================================
    HORIZONTAL SECTION NAV (Mission / Vision / Goals)
    ===================================================== */
 
@@ -156,10 +153,9 @@ html {
   display: flex;
   justify-content: center;
   gap: 3rem;
-  padding: 1rem 0;
+  padding: 1.2rem 0;
   background-color: #f7f9fb;
   border-bottom: 4px solid #2a92bf;
-  margin-bottom: 3rem;
 
   /* full-width stretch */
   width: 100vw;
@@ -171,6 +167,7 @@ html {
   font-weight: 600;
   color: #2a92bf;
   text-decoration: none;
+  font-size: 1.1rem;
 }
 
 /* Hover state for section nav */
@@ -178,6 +175,9 @@ html {
   color: #175931;
 }
 
+#section-nav {
+  scroll-margin-top: 60px;
+}
 
 /* =====================================================
    CONTENT SECTION HEADERS
@@ -185,8 +185,106 @@ html {
 
 /* Consistent spacing + divider for section headings */
 h2 {
-  margin-top: 5rem;            /* space above section */
+  margin-top: 2.5rem;            /* space above section */
   padding-bottom: 0.75rem;     /* space between text and line */
   margin-bottom: 1.5rem;       /* space after divider */
   border-bottom: 3px solid #2a92bf;
 }
+
+/* =====================================================
+   Donate Button
+   ===================================================== */
+.donate-cta {
+  text-align: center;
+  margin-top: 2.5rem;
+}
+
+.hero-btn:focus {
+  outline: none;
+}
+
+.hero-btn:focus-visible {
+  box-shadow: 0 0 0 3px rgba(42, 146, 191, 0.35);
+}
+
+
+/* =====================================================
+   Contact Page
+   ===================================================== */
+
+.contact-hero {
+  text-align: center;
+  padding: 4rem 1rem 2rem;
+}
+
+.contact-hero h1 {
+  font-size: 2.4rem;
+  margin-bottom: 0.5rem;
+}
+
+.contact-hero p {
+  max-width: 700px;
+  margin: 0 auto;
+  font-size: 1.05rem;
+}
+
+.contact-container {
+  max-width: 1100px;
+  margin: 2rem auto 4rem;
+  padding: 0 1.5rem;
+}
+
+.contact-form {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.5rem;
+}
+
+.contact-left,
+.contact-right {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.contact-form input,
+.contact-form textarea {
+  padding: 0.9rem 1rem;
+  font-size: 1rem;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  font-family: inherit;
+}
+
+.contact-form textarea {
+  min-height: 200px;
+  resize: vertical;
+}
+
+.contact-submit {
+  grid-column: 1 / -1;
+  text-align: center;
+  margin-top: 1.5rem;
+}
+
+.contact-submit button {
+  background-color: #2a92bf;
+  color: #fffced;
+  border: none;
+  padding: 0.7rem 2rem;
+  font-size: 1rem;
+  border-radius: 30px;
+  cursor: pointer;
+}
+
+.contact-submit button:hover {
+  background-color: #175931;
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+  .contact-form {
+    grid-template-columns: 1fr;
+  }
+}
+
