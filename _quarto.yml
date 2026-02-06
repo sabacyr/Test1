@@ -4,6 +4,7 @@ project:
 website:
   title: "Geotechnical Student Organization"
   favicon: img/favicon.png
+
   navbar:
     left:
       - href: index.qmd
@@ -34,3 +35,4 @@ format:
     theme: cosmo
     css: styles.css
     toc: false
+
